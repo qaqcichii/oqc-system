@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>QUALITY CONTROL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2f7, #d9e2ec);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 90%;
+            max-width: 600px;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 180px;
+            margin-bottom: 25px;
+        }
+
+        h1.title {
+            margin-bottom: 30px;
+            color: #2c3e50;
+            letter-spacing: 1px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .menu a {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            text-decoration: none;
+            background: #f4f6f8;
+            color: #2c3e50;
+            padding: 14px 18px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid #e1e6eb;
+        }
+
+        .menu a i {
+            font-size: 22px;
+            transition: transform 0.35s ease, color 0.35s ease;
+        }
+
+        /* Hover global */
+        .menu a:hover {
+            background: #2c3e50;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        .menu a:hover i {
+            color: #ffffff;
+            transform: scale(1.3) rotate(-8deg);
+        }
+
+        /* ICON COLOR PER MENU */
+        .icon-blue   { color: #1e88e5; }
+        .icon-purple { color: #8e24aa; }
+        .icon-green  { color: #2e7d32; }
+        .icon-orange { color: #f57c00; }
+        .icon-gray   { color: #455a64; }
+        .icon-red    { color: #c62828; }
+
+        footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <img src="logo.jpeg" alt="Logo QC">
+    </div>
+
+    <h1 class="title">QUALITY CONTROL</h1>
+
+    <div class="menu">
+        <a href="https://ichii.sharepoint.com/sites/FY2025IIIQUALITYACHIEVMENT/Shared%20Documents/Forms/AllItems.aspx">
+            <i class="fa-solid fa-chart-line icon-blue"></i>
+            1. QUALITY ACHIEVEMENT
+        </a>
+
+        <a href="https://ichii.sharepoint.com/sites/FINALINSPECTIONZENKEN/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FFINALINSPECTIONZENKEN%2FShared%20Documents%2FHISTORY%20SHEET%2Fhistory%20sheets%2F2026&viewid=a9e46456%2Dbb02%2D4338%2D81e5%2Dcaf1d26894dd&p=true">
+            <i class="fa-solid fa-clock-rotate-left icon-purple"></i>
+            2. HISTORY SHEET
+        </a>
+
+        <a href="https://ichii.sharepoint.com/:x:/r/sites/FINALINSPECTIONZENKEN/_layouts/15/Doc.aspx?sourcedoc=%7BFEAE5246-E878-4DD1-A701-ABDD7CD95E00%7D&file=Catatan%20Si%20Boy%20(2026).xlsx&action=default&mobileredirect=true">
+            <i class="fa-solid fa-clipboard-list icon-green"></i>
+            3. CATATAN ANTAR SHIFT QC
+        </a>
+
+        <a href="https://docs.google.com/spreadsheets/d/1rtSeLTNJ6_qTKb5ZpkZyTgegwqTY7x80nQO7QuhvLZA/edit?gid=150943358#gid=150943358">
+            <i class="fa-solid fa-magnifying-glass-chart icon-orange"></i>
+            4. TEMUAN ZENKEN
+        </a>
+
+        <a href="https://ichii.sharepoint.com/sites/FINALINSPECTIONZENKEN/Shared%20Documents/Forms/AllItems.aspx?viewid=a9e46456%2Dbb02%2D4338%2D81e5%2Dcaf1d26894dd&p=true">
+            <i class="fa-solid fa-bars icon-gray"></i>
+            5. MENU
+        </a>
+
+        <a href="https://docs.google.com/spreadsheets/d/10ILGuCgGRWO05ShSYJ0w087G16V-LlLG4kFCMPROeEY/edit?gid=1465555061#gid=1465555061">
+            <i class="fa-solid fa-triangle-exclamation icon-red"></i>
+            6. LIST PART NC
+        </a>
+    </div>
+
+    <footer>
+        © Quality Control System
+    </footer>
+
+</div>
+
+</body>
+</html>
